@@ -534,10 +534,8 @@ $.widget( "ui.spinner" , {
 			increment = self.options.increment,
 			curIncrement = increment[self.incCounter];
 
-		this._trigger( "beforeSpin" , event, { item: this.selectedItem } );
 		self._doSpin(dir * curIncrement.mult * (large ? self.options.largeStep : self.options.step));
 		self.counter++;
-		this._trigger( "afterSpin" , event, { item: this.selectedItem } );
 
 		if ((self.counter > curIncrement.count) && (self.incCounter < increment.length-1)) {
 			self.counter = 0;
