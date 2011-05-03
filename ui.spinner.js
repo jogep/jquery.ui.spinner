@@ -1,5 +1,5 @@
 /*!
- *jQuery UI Spinner 1.24
+ *jQuery UI Spinner 1.25
  *
  *Copyright (c) 2009-2010 Brant Burnett
  *Copyright (c) 2010 Johannes Geppert http://www.jgeppert.com
