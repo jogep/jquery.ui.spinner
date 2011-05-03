@@ -335,10 +335,6 @@ $.widget( "ui.spinner" , {
 					}
 				})
 
-			.bind( "keypress" + eventNamespace, function(e) {
-					if (invalidKey(e.keyCode, e.charCode)) { return false; }
-				})
-
 			.bind( "change" + eventNamespace, function() { self._change(); })
 
 			.bind( "focus" + eventNamespace, function() {
